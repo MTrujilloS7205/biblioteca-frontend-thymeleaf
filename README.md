@@ -30,8 +30,8 @@ Este proyecto fue diseñado siguiendo una arquitectura MVC (Modelo - Vista - Con
 
 ## 🌐 URL de acceso
 
-Backend API: http://localhost:8080/api
-Frontend: http://localhost:8081
+- Backend API: http://localhost:8080/api
+- Frontend: http://localhost:8081
 
 ---
 
