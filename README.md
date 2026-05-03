@@ -90,10 +90,10 @@ El sistema utiliza SweetAlert2 para mostrar mensajes de confirmación, éxito y 
 ![Lista](./images/01-lista-libros.png)
 
 ### 🔹 Vista responsive (Autores - Mobile)
-![Mobile](./images/02-autores-mobile.png)
+![Mobile](./images/02-autores-mobile.jpeg)
 
 ### 🔹 Filtro por autor (Mobile)
-![Filtro mobile](./images/03-filtro-autor-mobile.png)
+![Filtro mobile](./images/03-filtro-autor-mobile.jpeg)
 
 ### 🔹 Filtro de libros (Desktop)
 ![Filtro desktop](./images/04-filtro-libros.png)
@@ -102,7 +102,7 @@ El sistema utiliza SweetAlert2 para mostrar mensajes de confirmación, éxito y 
 ![Form libro](./images/05-form-libro.png)
 
 ### 🔹 Formulario de autor (Mobile)
-![Form autor](./images/06-form-autor-mobile.png)
+![Form autor](./images/06-form-autor-mobile.jpeg)
 
 ### 🔹 Confirmación de eliminación
 ![Confirmación](./images/07-confirmacion.png)
