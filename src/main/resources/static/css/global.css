@@ -1,0 +1,25 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 abr. 2026, 21:58:21
+    Author     : MTrujilloS
+*/
+
+/* global.css */
+
+/* fondo general */
+body {
+  background-color: #f8f9fa;
+}
+
+/* botones base */
+.btn {
+  border-radius: 6px;
+}
+
+/* títulos */
+h1 {
+  font-weight: 600;
+}

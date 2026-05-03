@@ -1,0 +1,84 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 abr. 2026, 21:58:36
+    Author     : MTrujilloS
+*/
+
+@media (max-width: 768px) {
+
+  .tabla-libros thead {
+    display: none;
+  }
+
+  .tabla-libros,
+  .tabla-libros tbody,
+  .tabla-libros tr,
+  .tabla-libros td {
+    display: block;
+    width: 100%;
+  }
+
+  /* CARD */
+  .tabla-libros tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  /* HEADER (Título) */
+  .tabla-libros td:first-child {
+    background: #6c757d;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+
+  .tabla-libros td:first-child::before {
+    display: none;
+  }
+
+  /* BODY */
+  .tabla-libros td:not(:first-child):not(:last-child) {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 12px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .tabla-libros td:not(:first-child):not(:last-child)::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #555;
+  }
+
+  /* FOOTER */
+  .tabla-libros td:last-child {
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+
+  .tabla-libros td:last-child::before {
+    display: none;
+  }
+
+  .tabla-libros td:last-child div {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .tabla-libros td:last-child .btn {
+    flex: 1;
+    padding: 10px;
+  }
+
+  .tabla-libros td {
+    border: none !important;
+  }
+}

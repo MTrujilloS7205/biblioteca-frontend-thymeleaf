@@ -1,0 +1,88 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 20 abr. 2026, 21:58:29
+    Author     : MTrujilloS
+*/
+
+/* =========================
+   TABLA → CARD PRO
+========================= */
+
+@media (max-width: 768px) {
+
+  .tabla-autores thead {
+    display: none;
+  }
+
+  .tabla-autores,
+  .tabla-autores tbody,
+  .tabla-autores tr,
+  .tabla-autores td {
+    display: block;
+    width: 100%;
+  }
+
+  /* CARD */
+  .tabla-autores tr {
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #fff;
+  }
+
+  /* HEADER */
+  .tabla-autores td:first-child {
+    background: #6c757d;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 12px;
+  }
+
+  .tabla-autores td:first-child::before {
+    display: none;
+  }
+
+  /* BODY */
+  .tabla-autores td:not(:first-child):not(:last-child) {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 12px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .tabla-autores td:not(:first-child):not(:last-child)::before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #555;
+  }
+
+  /* FOOTER */
+  .tabla-autores td:last-child {
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+
+  .tabla-autores td:last-child::before {
+    display: none;
+  }
+
+  .tabla-autores td:last-child div {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .tabla-autores td:last-child .btn {
+    flex: 1;
+  }
+
+  /* 🔧 AJUSTE IMPORTANTE */
+  .tabla-autores td {
+    border: none !important;
+  }
+}
