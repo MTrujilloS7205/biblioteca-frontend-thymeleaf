@@ -40,7 +40,7 @@ Este proyecto fue diseñado siguiendo una arquitectura MVC (Modelo - Vista - Con
 El frontend consume una API REST desarrollada en Spring Boot mediante el uso de `RestTemplate`.
 
 👉 Repositorio del backend:  
-(Aquí debes colocar el link de tu API biblioteca-backend)
+https://github.com/MTrujilloS7205/biblioteca-api-v2  
 
 La comunicación permite realizar operaciones CRUD, aplicar filtros y generar reportes en PDF desde la interfaz web.
 
